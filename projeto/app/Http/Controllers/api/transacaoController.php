@@ -31,7 +31,7 @@ class transacaoController extends Controller
             return response()->json([
                 'status' => 'erro',
                 'mensagem' => 'Conta de origem ou destino inexistentes, verifique o número da conta e tente novamente.'
-            ], 400); 
+            ], 400);
         }
 
         $valor = $request->valor;
@@ -62,7 +62,7 @@ class transacaoController extends Controller
                 'status' => 1,
                 'data_transacao' => now()
             ]);
-            DB::commit(); 
+            DB::commit();
 
             return response()->json([
                 'status' => 'sucesso',

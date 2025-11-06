@@ -19,6 +19,7 @@ class TRANSACOES extends Model
         'valor',
         'cod_unico_transacao',
         'status',
+        'data_transacao'
     ];
     public $timestamps = false;
 }
