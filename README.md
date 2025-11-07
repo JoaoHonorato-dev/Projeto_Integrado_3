@@ -10,6 +10,8 @@ As views estão em <b>resources/views/</b>
 
 Todo o projeto foi elaborado seguindo as informações no guia da matéria, não é nenhum site completo, apenas a realização dos requisitos.
 
+O Arquivo procedure.sql é onde possuí a procedure solicitada na atividade.
+
 
 
 
